@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // const URL = 'http://localhost:8000'
-const URL = "https://luchy-project.vercel.app"
+// const URL = "https://luchy-project.vercel.app"
+const URL = "https://lucky-backendapi.onrender.com/"
 
 export const authenticateSignup = async (data) => {
   try {
