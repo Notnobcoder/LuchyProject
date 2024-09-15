@@ -6,7 +6,7 @@ import { getProducts, getProductById } from '../controller/product-controller.js
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  return res.json("Api working")
+  return res.json({ message: "api worki" })
 })
 router.post('/signup', userSignup);
 router.post('/login', userLogin);
