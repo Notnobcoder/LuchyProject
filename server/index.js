@@ -16,6 +16,11 @@ app.use(bodyParser.json({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', Router);
 
+app.get("/test", (req, res) => {
+  res.json({ message: "working" })
+
+})
+
 const PORT = process.env.PORT || 9000;
 
 Connection();
